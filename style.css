@@ -273,3 +273,49 @@ section h2{
 }
 
 }
+/* Animation */
+
+.hidden{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
+/* Ripple */
+
+a{
+position:relative;
+overflow:hidden;
+}
+
+.ripple{
+position:absolute;
+width:15px;
+height:15px;
+background:rgba(255,255,255,.4);
+border-radius:50%;
+transform:translate(-50%,-50%);
+animation:ripple .6s linear;
+pointer-events:none;
+}
+
+@keyframes ripple{
+
+from{
+width:0;
+height:0;
+opacity:.7;
+}
+
+to{
+width:300px;
+height:300px;
+opacity:0;
+}
+
+}
