@@ -319,3 +319,32 @@ opacity:0;
 }
 
 }
+
+.legal{
+max-width:900px;
+margin:80px auto;
+padding:40px;
+line-height:1.8;
+font-family:'Poppins',sans-serif;
+}
+
+.legal h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.legal h3{
+margin-top:25px;
+}
+
+.legal ul{
+padding-left:20px;
+}
+
+.legal a{
+display:inline-block;
+margin-top:30px;
+text-decoration:none;
+color:#ff4d6d;
+font-weight:600;
+}
